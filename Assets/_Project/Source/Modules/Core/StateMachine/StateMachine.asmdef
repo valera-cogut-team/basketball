@@ -1,0 +1,19 @@
+{
+    "name": "StateMachine",
+    "rootNamespace": "StateMachine",
+    "references": [
+        "Zenject",
+        "Core",
+        "Logger"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
+

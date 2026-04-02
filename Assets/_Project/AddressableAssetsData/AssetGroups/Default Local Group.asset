@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Default Local Group
+  m_GUID: bcbc546fb618c4cf69eaaf50a25ad4b6
+  m_SerializeEntries:
+  - m_GUID: 1a548363bbf5641b08c2eb740bcde484
+    m_Address: Sfx_ApplauseCrowdShort_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20fda529c996a334da7fd65b48ea40df
+    m_Address: Vfx_ScoreHit_Magic2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 212ef1a41838ce044a9ac54994866708
+    m_Address: Vfx_ScoreHit_Basic2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47096eff328e11a418ace7db2d72aa97
+    m_Address: Vfx_ScoreHit_Basic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4790206eadc817b4196e071640e653af
+    m_Address: Vfx_ScoreHit_Basic7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c54fbd812df2402ca410f2a3ea976b2
+    m_Address: Gameplay_PlayField
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ac1e1db226cc4c43b2145f3f1d08da5
+    m_Address: Sfx_ApplauseCrowdShort_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b95116599c3704d11a8e25f527d589ad
+    m_Address: Gameplay_Ball
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4e5f60789ab4c1d9e2f3041526374a8
+    m_Address: Config_BasketballTuning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcb74f28d107e284e80af037bfec14ca
+    m_Address: Vfx_ScoreHit_LightningBlue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f8a4cc015153e40918625d168bd39f05, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fb2c741a370584df1b3bca10f84df9d9, type: 2}
+    - {fileID: 11400000, guid: 998f5f3bac40c4c518ca93a86c3b3178, type: 2}

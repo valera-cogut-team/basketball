@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a21f4e2d0b4b8a9e3c7d1f5a6b9e2c, type: 3}
+  m_Name: BasketballTuning
+  m_EditorClassIdentifier: 
+  scoreCooldownSeconds: 0.65
+  respawnBallAfterScoreSeconds: 1.6
+  respawnBallAfterThrowSeconds: 4
+  pickupRadius: 2.9
+  maxHoldChargeSeconds: 1.25
+  minThrowForce: 5.5
+  maxThrowForce: 10
+  throwChargeWeight:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  throwPlanarForwardBlend: 0.32
+  throwVerticalLift: 0.48
+  swipeFullPowerScreenFraction: 0.52
+  swipeMinScreenFraction: 0.01
+  swipeStrengthGamma: 1.65
+  swipeDeadzoneScreenFraction: 0.006
+  swipeHorizontalMaxYawDegrees: 38
+  swipeVerticalArcLift: 0.5
+  showThrowTrajectory: 1
+  trajectoryPreviewSegments: 40
+  trajectoryPreviewDuration: 1.65
+  trajectoryLineWidth: 0.035
+  trajectoryColor: {r: 1, g: 0.92, b: 0.35, a: 0.72}
+  trajectoryColorMaxCharge: {r: 1, g: 0.45, b: 0.12, a: 0.85}
+  holdDistance: 2.35
+  cameraMoveSpeed: 6
+  mouseSensitivity: 2.8
+  scoreCameraRotShakeDurationSeconds: 0.5
+  scoreCameraRotShakePitchAmplitude: 1.1
+  scoreCameraRotShakeYawAmplitude: 0.85
+  scoreCameraRotShakeCycles: 2
+  spawnBallInFrontOfCamera: 1
+  ballSpawnForwardDistance: 2.15
+  ballSpawnHeightOffset: -1.05
+  ballSpawnPlanarForwardBlend: 0.88
+  scoreMinVelocitySqr: 0.02
+  scoreDownwardDot: 0.28
+  scoreOpeningHorizontalRadius: 0.22
+  ballMass: 0.58
+  ballLinearDamping: 0.18
+  ballAngularDamping: 0.08
+  ballBounciness: 0.627
+  rimBounciness: 0.249
+  floorBounciness: 0.64
+  playFieldAddress: Gameplay_PlayField
+  ballAddress: Gameplay_Ball
+  ballSpawnWorldPosition: {x: 0, y: 1.35, z: -3.5}
+  ballSpawnChildName: BallSpawn

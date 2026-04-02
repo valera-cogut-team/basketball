@@ -1,0 +1,29 @@
+{
+  "name": "Basketball",
+  "rootNamespace": "Basketball",
+  "references": [
+    "Core",
+    "Logger",
+    "Storage",
+    "Input",
+    "LifeCycle",
+    "Addressables",
+    "Pool",
+    "Audio",
+    "Effects",
+    "UniTask",
+    "Zenject",
+    "UniRx",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

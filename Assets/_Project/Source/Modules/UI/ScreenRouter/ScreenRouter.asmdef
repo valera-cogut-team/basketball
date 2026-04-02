@@ -1,0 +1,22 @@
+{
+    "name": "ScreenRouter",
+    "references": [
+        "Zenject",
+        "UniTask",
+        "Core",
+        "Logger",
+        "Addressables",
+        "UIRoot"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
+
+

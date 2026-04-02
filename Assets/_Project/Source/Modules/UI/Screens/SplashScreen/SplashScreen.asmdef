@@ -1,0 +1,21 @@
+{
+    "name": "SplashScreen",
+    "references": [
+        "Zenject",
+        "UniTask",
+        "Core",
+        "Logger",
+        "ScreenRouter",
+        "Timer",
+        "AppFlow.Contracts"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

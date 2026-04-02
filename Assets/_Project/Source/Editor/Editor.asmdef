@@ -1,0 +1,21 @@
+{
+  "name": "EditorTools",
+  "rootNamespace": "EditorTools",
+  "includePlatforms": [
+    "Editor"
+  ],
+  "references": [
+    "Unity.Addressables.Editor",
+    "Bootstrap",
+    "GameScreen",
+    "SplashScreen",
+    "Basketball"
+  ],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
