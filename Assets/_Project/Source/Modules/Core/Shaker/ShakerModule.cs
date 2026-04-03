@@ -27,7 +27,6 @@ namespace Shaker
 
             _facade = new ShakerFacade(_service);
             context.Container.Bind<IShakerFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<IShakerActions>().FromInstance(_facade).AsSingle();
         }
 
         public void Enable()

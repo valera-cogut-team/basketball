@@ -33,7 +33,6 @@ namespace GameScreen
 
             context.Container.Bind<IGameScreenService>().FromInstance(_service).AsSingle();
             context.Container.Bind<IGameScreenFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<IGameScreenActions>().FromInstance(_facade).AsSingle();
             context.Container.Bind<IGameScreenState>().FromInstance(_facade).AsSingle();
         }
 

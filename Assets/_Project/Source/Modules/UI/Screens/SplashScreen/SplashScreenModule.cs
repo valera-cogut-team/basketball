@@ -37,7 +37,6 @@ namespace SplashScreen
 
             context.Container.Bind<ISplashScreenService>().FromInstance(_service).AsSingle();
             context.Container.Bind<ISplashScreenFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<ISplashScreenActions>().FromInstance(_facade).AsSingle();
             context.Container.Bind<ISplashScreenState>().FromInstance(_facade).AsSingle();
         }
 

@@ -39,7 +39,6 @@ namespace ScreenRouter
             // Create facade
             _facade = new ScreenRouterFacade(_service);
             context.Container.Bind<IScreenRouterFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<IScreenRouterActions>().FromInstance(_facade).AsSingle();
             context.Container.Bind<IScreenRouterState>().FromInstance(_facade).AsSingle();
         }
 

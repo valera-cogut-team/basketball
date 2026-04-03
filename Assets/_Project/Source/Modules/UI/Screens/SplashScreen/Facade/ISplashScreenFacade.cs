@@ -1,9 +1,12 @@
+using System.Threading;
+using Cysharp.Threading.Tasks;
+using UnityEngine;
+
 namespace SplashScreen.Facade
 {
-    /// <summary>
-    /// Splash screen Facade - aggregates public contracts.
-    /// </summary>
-    public interface ISplashScreenFacade : ISplashScreenActions, ISplashScreenState
+    /// <summary>Splash screen — public API.</summary>
+    public interface ISplashScreenFacade : ISplashScreenState
     {
+        UniTask<GameObject> ShowAsync(object payload = null, CancellationToken cancellationToken = default);
     }
 }

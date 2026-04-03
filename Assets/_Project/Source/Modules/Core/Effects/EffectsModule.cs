@@ -30,7 +30,6 @@ namespace Effects
 
             _facade = new EffectsFacade(_service);
             context.Container.Bind<IEffectsFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<IEffectsActions>().FromInstance(_facade).AsSingle();
         }
 
         public void Enable()

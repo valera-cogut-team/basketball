@@ -25,7 +25,6 @@ namespace Storage
             context.Container.Bind<IStorageService>().FromInstance(_service).AsSingle();
             _facade = new StorageFacade(_service);
             context.Container.Bind<IStorageFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<IStorageActions>().FromInstance(_facade).AsSingle();
         }
 
         public void Enable()

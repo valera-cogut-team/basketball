@@ -26,7 +26,6 @@ namespace Pool
 
             context.Container.Bind<PoolService>().FromInstance(_service).AsSingle();
             context.Container.Bind<IPoolFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<IPoolActions>().FromInstance(_facade).AsSingle();
         }
 
         public void Enable()

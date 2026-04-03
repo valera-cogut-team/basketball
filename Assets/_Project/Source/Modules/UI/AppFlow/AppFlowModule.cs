@@ -35,7 +35,6 @@ namespace AppFlow
 
             context.Container.Bind<IAppFlowService>().FromInstance(_service).AsSingle();
             context.Container.Bind<IAppFlowFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<IAppFlowActions>().FromInstance(_facade).AsSingle();
         }
 
         public void Enable()

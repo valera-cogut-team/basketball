@@ -27,7 +27,6 @@ namespace Addressables
 
             _facade = new AddressablesFacade(_service, context);
             context.Container.Bind<IAddressablesFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<IAddressablesActions>().FromInstance(_facade).AsSingle();
         }
 
         public void Enable()

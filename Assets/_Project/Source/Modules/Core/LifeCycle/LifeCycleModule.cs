@@ -28,7 +28,6 @@ namespace LifeCycle
             context.Container.Bind<ILifeCycleService>().FromInstance(_service).AsSingle();
             _facade = new LifeCycleFacade(_service);
             context.Container.Bind<ILifeCycleFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<ILifeCycleActions>().FromInstance(_facade).AsSingle();
             var go = new GameObject("LifeCycleMonoBehaviour");
             _mono = go.AddComponent<LifeCycleMonoBehaviour>();
             _mono.Initialize(_facade);

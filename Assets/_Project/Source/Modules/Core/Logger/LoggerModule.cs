@@ -25,7 +25,6 @@ namespace Logger
             context.Container.Bind<ILoggerService>().FromInstance(_service).AsSingle();
             _facade = new LoggerFacade(_service);
             context.Container.Bind<ILoggerFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<ILoggerActions>().FromInstance(_facade).AsSingle();
         }
 
         public void Enable() => IsEnabled = true;

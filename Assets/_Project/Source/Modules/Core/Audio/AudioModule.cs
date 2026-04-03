@@ -24,7 +24,6 @@ namespace Audio
             context.Container.Bind<IAudioService>().FromInstance(_service).AsSingle();
             _facade = new AudioFacade(_service);
             context.Container.Bind<IAudioFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<IAudioActions>().FromInstance(_facade).AsSingle();
         }
 
         public void Enable()

@@ -25,7 +25,6 @@ namespace Timer
             context.Container.Bind<ITimerService>().FromInstance(_service).AsSingle();
             _facade = new TimerFacade(_service, context);
             context.Container.Bind<ITimerFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<ITimerActions>().FromInstance(_facade).AsSingle();
         }
 
         public void Enable() { if (IsEnabled) return; IsEnabled = true; _facade?.Enable(); _context.GetModuleFacade<ILoggerFacade>()?.LogInfo("TimerModule enabled"); }

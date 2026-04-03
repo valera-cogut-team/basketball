@@ -39,7 +39,6 @@ namespace UIPopup
             // Create facade (API + Signals as a single entry point)
             _facade = new UIPopupFacade(_service, _signals);
             context.Container.Bind<IUIPopupFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<IUIPopupActions>().FromInstance(_facade).AsSingle();
         }
         
         public void Enable()

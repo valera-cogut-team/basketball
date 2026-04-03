@@ -80,7 +80,6 @@ namespace Basketball
 
             _facade = new BasketballFacade(_state, _tuning, storage);
             _context.Container.Bind<IBasketballFacade>().FromInstance(_facade).AsSingle();
-            _context.Container.Bind<IBasketballActions>().FromInstance(_facade).AsSingle();
             _context.Container.Bind<IBasketballState>().FromInstance(_facade).AsSingle();
 
             _contentReady = true;

@@ -1,4 +1,13 @@
+using System;
+
 namespace Logger.Facade
 {
-    public interface ILoggerFacade : ILoggerActions { }
+    public interface ILoggerFacade
+    {
+        void LogInfo(string message);
+        void LogWarning(string message);
+        void LogError(string message, Exception exception = null);
+        void LogDebug(string message);
+        void LogCritical(string message, Exception exception = null);
+    }
 }

@@ -24,7 +24,6 @@ namespace StateMachine
 
             context.Container.Bind<StateMachineService>().FromInstance(_service).AsSingle();
             context.Container.Bind<IStateMachineFacade>().FromInstance(_facade).AsSingle();
-            context.Container.Bind<IStateMachineActions>().FromInstance(_facade).AsSingle();
         }
 
         public void Enable() => IsEnabled = true;

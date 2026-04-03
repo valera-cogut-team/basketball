@@ -5,7 +5,7 @@ using StateMachine.Facade;
 
 namespace StateMachine.Application
 {
-    public sealed class StateMachineService : IStateMachineActions
+    public sealed class StateMachineService
     {
         private readonly ILoggerFacade _logger;
 

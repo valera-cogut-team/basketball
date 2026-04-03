@@ -1,9 +1,12 @@
+using System.Threading;
+using Cysharp.Threading.Tasks;
+using UnityEngine;
+
 namespace GameScreen.Facade
 {
-    /// <summary>
-    /// Game screen Facade - aggregates public contracts.
-    /// </summary>
-    public interface IGameScreenFacade : IGameScreenActions, IGameScreenState
+    /// <summary>Game screen — public API.</summary>
+    public interface IGameScreenFacade : IGameScreenState
     {
+        UniTask<GameObject> ShowAsync(object payload = null, CancellationToken cancellationToken = default);
     }
 }
